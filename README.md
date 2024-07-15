@@ -122,5 +122,5 @@ ASF.json
 | `ASFAWARDTOOL`                                    | `AAT`        | `FamilySharing` | 查看 ASF Award Tool 的版本                     |
 | `TASKLIST [任务ID/SteamID]`                       |              | `Master`        | 查找相关的打赏任务, 不指定参数时查显示所有任务 |
 | `CREATETASK 被打赏人SteamdId 打赏点数 [打赏类型]` | `ADDTASK`    | `Master`        | 创建打赏任务, 打赏类型省略时使用默认打赏类型   |
-| `CANCELTASK [任务ID/SteamID]`                     | `STOPTASK`   | `Master`        | 取消相关的打赏任务                             |
+| `CANCELTASK`                                      | `STOPTASK`   | `Master`        | 取消当前打赏任务                               |
 | `DELETEHISTORYTASK`                               | `DELHISTORY` | `Master`        | 清除历史任务记录                               |
